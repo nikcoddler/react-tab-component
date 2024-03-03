@@ -1,0 +1,11 @@
+.tab-wrapper {
+    cursor: pointer;
+}
+
+
+.active-line {
+    width: 100%;
+    border-bottom: 2px solid red;
+    position: relative;
+    top: 10px;
+}

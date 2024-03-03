@@ -1,0 +1,24 @@
+.tabs-container {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    background-color: gray;
+    padding: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper {
+
+    border: 1px solid gray;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.content-wrapper {
+    padding: 10px
+}
+
+

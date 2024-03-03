@@ -1,0 +1,33 @@
+.tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid blue;
+    display: flex;
+}
+
+.tabs > li {
+    margin: 0 1em;
+    padding: 0.5em 1em;
+
+}
+
+.tabs > li a {
+    text-decoration: none;
+}
+
+.active-tab {
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-bottom: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: white;
+    position: relative;
+    top: 2px;
+}
+
+.content-area {
+    padding: 1em 3em;
+}
